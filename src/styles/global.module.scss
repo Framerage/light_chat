@@ -1,0 +1,24 @@
+.appSection {
+  margin-top: 16px;
+  padding: 24px;
+  background: #fff;
+  border-radius: 16px;
+}
+.appInputField{
+  width: 100%;
+  padding: 12px 14px;
+  border: 2px solid #d3d3d3;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color .2s;
+  &:focus{
+    border-color: #00008b;
+  }
+}
+
+.alertError {
+  padding: 8px;
+  border-radius: 8px;
+  color: #8b0000;
+  background-color: lightcoral;
+}

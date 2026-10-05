@@ -1,0 +1,23 @@
+@import '../../styles/global.module.scss';
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.createBtn{
+    max-width: 100px;
+    padding: 4px;
+    border-radius: 4px;
+    border: 2px solid #d3d3d3;
+    outline: none;
+    box-shadow: none;
+    transition: transform .5s;
+    &:hover{
+        border-color: #00008b;
+    }
+    &:active{
+        transform: scale(0.95);
+    }
+}

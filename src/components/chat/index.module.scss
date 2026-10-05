@@ -1,0 +1,14 @@
+@import '../../styles/global.module.scss';
+.chatHeadline{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    .chatStatus{
+        font-size: 14px;
+        color: #8b0000;
+        &_online{
+            color: green;
+        }
+    }
+}
